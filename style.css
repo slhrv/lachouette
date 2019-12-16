@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.logo {
+    width: 13%;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -894,6 +898,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
     h1,
     h2,
     h3,
@@ -1038,5 +1043,13 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    #bloc-1-hero h1 {
+    font-size: 12px;
+    }
+
+    .cta-hero {
+    font-size: 12px;
     }
 }
