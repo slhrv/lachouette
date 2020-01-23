@@ -1,4 +1,5 @@
 # fichier pour les robots du site https://slhrv.github.io/lachouette
-User-Agent: * (autorise l’accès à tous les robots )
+User-Agent: *
 Disallow: /form_1.php
-Sitemap: https://slhrv.github.io/lachouette/sitemap.xml (lien vers le sitemap pour le référencement)
+Allow: /
+Sitemap: https://slhrv.github.io/lachouette/sitemap.xml
