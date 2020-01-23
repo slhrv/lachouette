@@ -1070,15 +1070,20 @@ h4 {
     height: 40px;
 }
 
+.container>.navbar-header,
+.row {
+    margin: auto;
+}
+
 .logo {
-    width: 13%;
+    width: 100px;
 }
 
 .blockquote-footer {
     color: #000;
 }
 
-h2 {
+.white h2 {
     color: #fff;
 }
 
@@ -1137,23 +1142,27 @@ a {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-twitter:before {
-    content: "\f099"
+    content: "\f099";
+    padding-right:10px;
 }
 
 .fa-facebook:before {
-    content: "\f09a"
+    content: "\f09a";
+    padding-right:10px;
 }
 
 .fa-dribbble:before {
-    content: "\f17d"
+    content: "\f17d";
+    padding-right:10px;
 }
 
 .fa-instagram:before {
-    content: "\f16d"
+    content: "\f16d";
+    padding-right:10px;
 }
 
 .sr-only {
