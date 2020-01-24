@@ -1091,6 +1091,14 @@ a {
     color: #fff;
 }
 
+address {
+    color: #000;
+}
+
+.d-bloc a .icon-md {
+    color: #fff;
+}
+
 @font-face {
     font-family: et-line;
     src: url(fonts/et-line.eot);
