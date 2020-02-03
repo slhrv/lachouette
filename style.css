@@ -872,10 +872,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +880,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1040,6 +1034,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    /*modif*/
 
     #bloc-1-hero h1 {
     font-size: 12px;
@@ -1084,10 +1079,6 @@ h4 {
 }
 
 .white h2 {
-    color: #fff;
-}
-
-a {
     color: #fff;
 }
 
@@ -1182,4 +1173,16 @@ address {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0
+}
+
+@media (min-width:768px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: auto;
+    }
 }
